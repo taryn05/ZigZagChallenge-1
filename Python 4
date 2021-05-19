@@ -1,0 +1,4 @@
+numberOne = int(input("enter the first number >>> "))
+numberTwo = int(input("enter the second number >>> "))
+total = numberOne/numberTwo
+print(total)
