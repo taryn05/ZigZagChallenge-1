@@ -1,0 +1,3 @@
+name = str(input("input your name >>> "))
+subject = input("hello, input your favorite subject >>> ")
+print("well" ,name, "i like" ,subject, "too!")
