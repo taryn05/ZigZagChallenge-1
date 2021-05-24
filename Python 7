@@ -1,0 +1,7 @@
+watch = int(input("how long do you watch tv for on average? >>> "))
+if watch <= 0 :
+  print("fresh air beats channel clicking")
+elif watch <= 2 :
+  print("that shouldnt rot your brain too much")
+elif watch >= 4:
+  print("aren’t you getting square eyes?")
