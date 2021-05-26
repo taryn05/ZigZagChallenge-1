@@ -1,0 +1,9 @@
+answer = str(input("name one of the olympic values >>> "))
+if answer == "respect":
+  print("thats correct")
+elif answer == "excellence":
+  print("thats correct")
+elif answer == "friendship":
+  print("thats correct")
+else:
+  print("try again")
