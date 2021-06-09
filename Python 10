@@ -1,0 +1,11 @@
+user = str(input("rock, paper, sissors go!! >>> "))
+import random
+
+weapons = ["rock", "paper", "scissors"]
+selected = random.choice(weapons)
+
+if user == "rock" and selected == "rock":
+  print("its a tie! you chose" ,user, "and the computer chose"
+  print(selected)
+elif user == "rock" and selected == "paper":
+  print("you loose! you chose" ,user, "and the computer chose" ,selected, "")
